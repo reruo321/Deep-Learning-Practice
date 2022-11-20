@@ -6,7 +6,10 @@
 ### Probabilistic Modeling
 
 #### 1. Naive Bayes Algorithm
-https://www.youtube.com/watch?v=O2L2Uv9pdDA
+Easy Guide: https://www.youtube.com/watch?v=O2L2Uv9pdDA
+
+* Likelihood: The probability of something discrete and individual. (excluding something continuous like weight or height)
+* Prior Probability: The probability distribution that would express one's belief, in Bayesian statistical inference.
 
 #### 2. Logistic Regression
 
