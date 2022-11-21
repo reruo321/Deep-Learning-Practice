@@ -18,6 +18,8 @@ Easy Guide: https://www.youtube.com/watch?v=O2L2Uv9pdDA
 * **Consequence of Variance**: The difference in fits between data sets.
 * **Overfitting**: The production of an analysis too fitting to a particular set of data → may fail to fit to additional data or predict future observations reliably.
 * **Underfitting**: It occurs when a mathematical model cannot adequately capture the underlying structure of the data.
+* **Regularization**: A process that changes the result answer to be "simpler": To obtain results for ill-posed problems OR to prevent overfitting.
+* **Ensemble Learning**: Use multiple learning algorithms → Obtain better predictive performance than just using one algorithm. Regularization, boosting, and bagging.
 
 #### 2. Logistic Regression
 
