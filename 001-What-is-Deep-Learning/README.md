@@ -8,10 +8,12 @@
 #### 1. Naive Bayes Algorithm
 Easy Guide: https://www.youtube.com/watch?v=O2L2Uv9pdDA
 
-**Naive Bayes classifier** is one of simple probabilistic classifiers based on applying Bayes' theorem with *strong (naive) independence assumptions between the features*.
+**Naive Bayes classifier** is one of simple probabilistic classifiers based on applying Bayes' theorem with *strong (naive) independence assumptions between the features*. High bias, low variance.
 
-* Likelihood: The probability of something discrete and individual. (excluding something continuous like weight or height)
-* Prior Probability: The probability distribution that would express one's belief, in Bayesian statistical inference.
+* **Bayes' Theorem**: The theorem describing the probability of an event, based on prior knowledge of conditions that might be related to the event.
+* **Prior Probability**: The probability distribution that would express one's belief, in Bayesian statistical inference.
+* **Likelihood**: The probability of something discrete and individual. (excluding something continuous like weight or height)
+
 
 #### 2. Logistic Regression
 
