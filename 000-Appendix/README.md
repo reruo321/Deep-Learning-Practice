@@ -23,14 +23,14 @@
 #### Consequence of Variance
 **Consequence of Variance** is the difference in fits between data sets.
 
-### Overfitting
+### A. Overfitting
 **Overfitting** is the production of an analysis too fitting to a particular set of data → may fail to fit to additional data or predict future observations reliably. When a complicatied model too fits to a training data, it is likely to have a higher rate of error on new unseen data.
 
-### Underfitting
+### B. Underfitting
 **Underfitting** occurs when a mathematical model cannot adequately capture the underlying structure of the data.
 
 ### Ensemble Learning
 **Ensemble Learning** uses multiple learning algorithms → Obtain better predictive performance than just using one algorithm. Some examples are *Regularization*, *Boosting*, and *Bagging*.
 
-#### Regularization
+#### 1. Regularization
 **Regularization** is a process that changes the result answer to be "simpler": To obtain results for ill-posed problems OR to prevent overfitting.
