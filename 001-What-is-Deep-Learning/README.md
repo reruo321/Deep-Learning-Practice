@@ -4,11 +4,4 @@
 
 ## History of Machine Learning
 ### Probabilistic Modeling
-
-#### 1. Naive Bayes Algorithm
-
-
-#### 2. Logistic Regression
-
-#### 3. Multilayer Perceptrons
-When these ANNs are trained under an appropriate loss function, they are naturally probabilistic.
+Some examples are Naive Bayes Algorithm, Logistic Regression, and Multilayer Perceptrons.
