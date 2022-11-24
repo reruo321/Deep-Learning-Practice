@@ -33,4 +33,8 @@
 **Ensemble Learning** uses multiple learning algorithms → Obtain better predictive performance than just using one algorithm. Some examples are *Regularization*, *Boosting*, and *Bagging*.
 
 #### 1. Regularization
-**Regularization** is a process that changes the result answer to be "simpler": To obtain results for ill-posed problems OR to prevent overfitting.
+**Regularization** is an ensemble learning method that changes the result answer to be "simpler": To obtain results for ill-posed problems OR to prevent overfitting.
+#### 2. Boosting
+**Boosting** is one of the ensemble methods that combines a set of sequential weak learners into a strong learner to minimize training errors.
+#### 3. Bagging
+**Bagging** is an ensemble learning method 
