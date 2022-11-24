@@ -26,15 +26,24 @@
 ### A. Overfitting
 **Overfitting** is the production of an analysis too fitting to a particular set of data → may fail to fit to additional data or predict future observations reliably. When a complicatied model too fits to a training data, it is likely to have a higher rate of error on new unseen data.
 
+#### How to Prevent Overfitting?
+1. Training Data ↑
+2. Regularization
+3. Drop-Out
+
 ### B. Underfitting
 **Underfitting** occurs when a mathematical model cannot adequately capture the underlying structure of the data.
 
 ### Ensemble Learning
-**Ensemble Learning** uses multiple learning algorithms → Obtain better predictive performance than just using one algorithm. Some examples are *Regularization*, *Boosting*, and *Bagging*.
+**Ensemble Learning** uses multiple learning algorithms → Obtain better predictive performance than just using one algorithm. Some examples are *Regularization*, *Boosting*, and *Bootstrap Aggregating*.
 
 #### 1. Regularization
 **Regularization** is an ensemble learning method that changes the result answer to be "simpler": To obtain results for ill-posed problems OR to prevent overfitting.
+
+How to: Make weights not too big (Too big weight = Too complicated, squiggly function), Change cost function (Smaller cost function = Specific weights ↑ = Bad result)
 #### 2. Boosting
 **Boosting** is one of the ensemble methods that combines a set of sequential weak learners into a strong learner to minimize training errors.
-#### 3. Bagging
-**Bagging** is an ensemble learning method 
+
+Step: 1st learner classifies data → Weight is given to misclassified data → 2nd learner classifies data → Weight is given to misclassified data → 3rd learner classifies data → Combine all classifiers → Final prediction
+#### 3. Bootstrap Aggregating
+**Bootstrap Aggregating**, or **Bagging** is an ensemble meta-algorithm(= metaheuristic, a higher-level heuristic designed to find, generate, or select a heurisitc (partial search algorithm)). The random sampling with replacement (bootstraping) + The set of homogeneous machine learning algorithms(ensemble learning). Since there is no dependency between estimators, it can be executed in parallel.
