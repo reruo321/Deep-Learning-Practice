@@ -7,6 +7,8 @@
 ### Bayes' Theorem
 **Bayes' theorem** describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
 
+![000bayer](https://user-images.githubusercontent.com/48712088/203980793-6985a66f-bd60-40fc-8486-5160126a23ab.jpg)
+
 #### Prior Probability
 **Prior probability** is the probability distribution that would express one's belief, in Bayesian statistical inference.
 #### Likelihood
