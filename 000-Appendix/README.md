@@ -28,6 +28,8 @@
 ### A. Overfitting
 **Overfitting** is the production of an analysis too fitting to a particular set of data → may fail to fit to additional data or predict future observations reliably. When a complicatied model too fits to a training data, it is likely to have a higher rate of error on new unseen data.
 
+![000overfitting](https://user-images.githubusercontent.com/48712088/203996143-2a91d684-46e4-486d-9bd0-da338a468a87.png)
+
 #### How to Prevent Overfitting?
 1. Training Data ↑
 2. Regularization
