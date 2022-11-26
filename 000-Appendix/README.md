@@ -54,4 +54,15 @@ Step: 1st learner classifies data → Weight is given to misclassified data → 
 ### 3. Bootstrap Aggregating
 **Bootstrap Aggregating**, or **Bagging** is an ensemble meta-algorithm(= metaheuristic, a higher-level heuristic designed to find, generate, or select a heurisitc (partial search algorithm)). The random sampling with replacement (bootstraping) + The set of homogeneous machine learning algorithms(ensemble learning). Since there is no dependency between estimators, it can be executed in parallel.
 
-# Probabilistic Training Data Sampling Methods
+# Data Sampling
+**Data Sampling** is a statistical analysis technique to select, manipulate, and analyze a representative subset of data points → identify patterns + trends in the larger dataset being examined.
+
+(Guide: [Guide 1](https://towardsdatascience.com/5-probabilistic-training-data-sampling-methods-in-machine-learning-460f2d6ffd9), [Guide 2](https://www.techtarget.com/searchbusinessanalytics/definition/data-sampling))
+## Data vs Dataset
+| Data | Dataset |
+| ---- | ------- |
+| Infinite | Finite |
+| Unfixed | Fixed |
+| Dynamic | Stationary |
+
+## Probabilistic Training Data Sampling Methods
