@@ -49,5 +49,7 @@ How to: Make weights not too big (Too big weight = Too complicated, squiggly fun
 **Boosting** is one of the ensemble methods that combines a set of sequential weak learners into a strong learner to minimize training errors.
 
 Step: 1st learner classifies data → Weight is given to misclassified data → 2nd learner classifies data → Weight is given to misclassified data → 3rd learner classifies data → Combine all classifiers → Final prediction
+
+(Guide: https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/)
 #### 3. Bootstrap Aggregating
 **Bootstrap Aggregating**, or **Bagging** is an ensemble meta-algorithm(= metaheuristic, a higher-level heuristic designed to find, generate, or select a heurisitc (partial search algorithm)). The random sampling with replacement (bootstraping) + The set of homogeneous machine learning algorithms(ensemble learning). Since there is no dependency between estimators, it can be executed in parallel.
