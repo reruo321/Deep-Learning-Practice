@@ -83,5 +83,5 @@ Divide the population into several groups according to the requirements, and sam
 ![000cluster](https://user-images.githubusercontent.com/48712088/204136872-fb47048d-8f7a-4ed7-9d98-9318500e122d.jpg)
 Divide the population into subsets based on a defined factor, and do random sampling on clusters.
 
-* Pros: Selects only certain groups → Requires fewer resources → Generally cheaper, The division into homogeneous groups → Feasibility of the sampling ↑, Subjects included in the study ↑
-* Cons: Biased samples, and high sampling error
+* Pros: Since it selects only certain groups, it requires fewer resources (Generally cheaper), The division into homogeneous groups → Feasibility of the sampling ↑ + More subjects included in the study.
+* Cons: Biased samples, Sampling error ↑
