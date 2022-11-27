@@ -8,6 +8,11 @@
 ### 2. Machine Learning
 **Machine Learning** gives computers the ability to learn, without being explicitly programmed. To solve more complicated problems like image classification, it became a substitute for symbolic AI.
 
+* Categories:
+  1. **Supervised Learning**: Example input + Desired output is given by a human teacher → Learn a general rule that maps inputs to outputs.
+  2. **Unsupervised Learning**: No labels are given → Find structure in its input by itself.
+  3. **Reinforcement Learning**: Interacts with a dynamic environment (Ex. driving a vehicle or playing a PvP game) → Tries to maximize reward feedback.
+
 ### 3. Deep Learning
 **Deep Learning** is machine learning algorithms with brain-like logical structure of algorithms(= Artificial Neural Networks).
 
