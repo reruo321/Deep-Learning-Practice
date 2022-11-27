@@ -74,4 +74,9 @@ All the samples in the population have the same chance of being sampled.
 
 ### 2. Stratified Sampling
 ![000stratified](https://user-images.githubusercontent.com/48712088/204133745-c471adfc-8774-446b-9e4e-b8c1b0e7835f.jpg)
+Divide the population to several groups according to the requirements, and sample from each group separately.
 
+* Pros: The sampled subsets are ensured to contain classes.
+* Cons: The population is not always dividable. For example, it will be very hard to use this method in a multi-label learning task.
+
+### 3. Cluster Sampling
