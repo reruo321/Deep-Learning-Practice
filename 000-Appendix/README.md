@@ -67,3 +67,11 @@ Step: 1st learner classifies data → Weight is given to misclassified data → 
 
 ## Probabilistic Training Data Sampling Methods
 ### 1. Simple Random Sampling
+All the samples in the population have the same chance of being sampled.
+
+* Pros: The method is straightforward, easy to implement.
+* Cons: Rare classes in the population might not be sampled in the selection.
+
+### 2. Stratified Sampling
+![000stratified](https://user-images.githubusercontent.com/48712088/204133745-c471adfc-8774-446b-9e4e-b8c1b0e7835f.jpg)
+
