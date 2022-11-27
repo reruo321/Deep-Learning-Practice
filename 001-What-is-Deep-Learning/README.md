@@ -15,11 +15,18 @@
 
 ### 3. Deep Learning
 **Deep Learning** is machine learning algorithms with brain-like logical structure of algorithms(= Artificial Neural Networks).
-
+Since it uses multiple layers in the network, it is also called as "layered representations learning" or "hierarchical representations learning".
 
 ## Mechanism
 ![001weight](https://user-images.githubusercontent.com/48712088/202853688-a912b524-b96a-4b06-b53f-af35fcdcc51c.jpg)
 
 ## History of Machine Learning
 ### Probabilistic Modeling
-Some examples are Naive Bayes Algorithm, Logistic Regression, and Multilayer Perceptrons.
+**Probabilistic Modeling** is an application of statistical principles to data analysis. Some examples are Naive Bayes Algorithm, Logistic Regression, and Multilayer Perceptrons.
+
+### Early Version of Neural Network
+In 1950s, the main idea of neural network was found, but it took a dozen years to find way to train large neural network.
+In 1980s, people found several backpropagation algorithms, and applied them to neural network.
+LeNet is the first (convolutional) neural network with backpropagation that performs image classification on handwritten zip codes.
+
+### 
