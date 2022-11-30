@@ -30,10 +30,13 @@ In 1980s, people found several backpropagation algorithms, and applied them to n
 LeNet is the first (convolutional) neural network with backpropagation that performs image classification on handwritten zip codes.
 
 ### Kernel Method
-**Kernel Method** is a classification algorithm, and "Kernel SVM" is the most famous thing. **SVM(Support Vector Machine)** is a supervised method used for linear regression and classification problems. It tries to make the best decision boundary in the middle of the void, so that it seperates data points into two classes.
+**Kernel Method** is a classification algorithm, and "Kernel SVM" is the most famous thing.
+**SVM(Support Vector Machine)** is a supervised method used for linear regression and classification problems. It tries to make the best decision boundary in the middle of the void, so that it seperates data points into two classes.
 
 ![001decision](https://user-images.githubusercontent.com/48712088/204344699-a420297d-747d-4284-a375-19026181bf48.jpg)
 
 While SVM performs linear classification, the kernel method allows the algorithm to fit the maximum-margin hyperplane in a transformed feature space, therefore it can also efficiently perform a non-linear classification.
 
 ![001SVM](https://user-images.githubusercontent.com/48712088/204521791-7cea8193-45d8-4730-a2eb-10ad6c8c735d.jpg)
+
+### 
