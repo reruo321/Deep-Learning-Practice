@@ -39,4 +39,7 @@ While SVM performs linear classification, the kernel method allows the algorithm
 
 ![001SVM](https://user-images.githubusercontent.com/48712088/204521791-7cea8193-45d8-4730-a2eb-10ad6c8c735d.jpg)
 
+![001kernel](https://user-images.githubusercontent.com/48712088/205038180-5f0f0a44-68f7-4cdc-8c9e-bdeb8af0316b.jpg)
+
+
 ### 
