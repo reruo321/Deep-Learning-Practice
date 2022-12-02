@@ -43,5 +43,9 @@ It seems good to mapping data to high-dimensional space for making the classific
 
 ![001kernel](https://user-images.githubusercontent.com/48712088/205038180-5f0f0a44-68f7-4cdc-8c9e-bdeb8af0316b.jpg)
 
+### Decision Tree
+**Decision Tree** has a structure similar to flowchart, and it classifies input data points or predicts output value.
+It is easy to visualize and understand.
 
-### 
+#### Random Forest
+**Random Forest** is an algorithm based on decision tree.
