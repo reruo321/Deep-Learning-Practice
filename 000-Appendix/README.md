@@ -85,3 +85,18 @@ Divide the population into subsets based on a defined factor, and do random samp
 
 * Pros: Since it selects only certain groups, it requires fewer resources (Generally cheaper), The division into homogeneous groups → Feasibility of the sampling ↑ + More subjects included in the study.
 * Cons: Biased samples, Sampling error ↑
+
+# Machine Learning
+## Supervised Learning
+### SVM
+**SVM(Support Vector Machine)** is a supervised method used for linear regression and classification problems. It tries to make the best decision boundary in the middle of the void, so that it seperates data points into two classes.
+
+![001decision](https://user-images.githubusercontent.com/48712088/204344699-a420297d-747d-4284-a375-19026181bf48.jpg)
+
+While SVM performs linear classification, the kernel method allows the algorithm to fit the maximum-margin hyperplane in a transformed feature space, therefore it can also efficiently perform a non-linear classification.
+
+![001SVM](https://user-images.githubusercontent.com/48712088/204521791-7cea8193-45d8-4730-a2eb-10ad6c8c735d.jpg)
+
+It seems good to mapping data to high-dimensional space for making the classification problem easier, but it is hard to realize it with computer actually. Here is why the kernel method is needed. It does not need to get the actual coordinate of mapped data in higher dimension. It just require to get the distance between two data points, which is efficiently calculated by "kernel function".
+
+![001kernel](https://user-images.githubusercontent.com/48712088/205038180-5f0f0a44-68f7-4cdc-8c9e-bdeb8af0316b.jpg)
