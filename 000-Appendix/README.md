@@ -86,9 +86,8 @@ Divide the population into subsets based on a defined factor, and do random samp
 * Pros: Since it selects only certain groups, it requires fewer resources (Generally cheaper), The division into homogeneous groups → Feasibility of the sampling ↑ + More subjects included in the study.
 * Cons: Biased samples, Sampling error ↑
 
-# Machine Learning
-## Supervised Learning
-### SVM
+# Supervised Learning
+## SVM
 **SVM(Support Vector Machine)** is a supervised method used for linear regression and classification problems. It tries to make the best decision boundary in the middle of the void, so that it seperates data points into two classes.
 
 ![001decision](https://user-images.githubusercontent.com/48712088/204344699-a420297d-747d-4284-a375-19026181bf48.jpg)
