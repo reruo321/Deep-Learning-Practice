@@ -37,4 +37,14 @@ LeNet is the first (convolutional) neural network with backpropagation that perf
 It is easy to visualize and understand.
 
 #### Random Forest
-**Random Forest** is an algorithm based on decision tree.
+**Random Forest** is an algorithm based on decision tree. It consists of a lot of different decision trees, so that it operates as an ensemble. It was the most preferable algorithm in the early years of Kaggle.
+
+#### Gradient Boosting Machine
+**Gradient Boosting Machine** is an ensemble algorithm using weak prediction models, which are typically decision trees. It combines weak learners into a single strong learner in an iterative fashion. Not only it usually outperforms random forest, it is very powerful method that is most used in Kaggle, except deep learning.
+
+### Neural Network Again
+In 2010, neural network did not attract most science communities' attention. However, the tables have been turned since deep neural network trained by GPU won an academic image classification competition 2011. Since 2012 when ConvNet (deep convolutional neural network) won ImageNet challenge with an amazing feat, ConvNet has been the main algorithm in most computer vision works.
+Moreover, as deep learning has been used in various problems, it becomes a substitution of SVM or decision tree.
+
+### Characteristic of Deep Learning
+Deep learning runs better in many problems, and it completely automates feature engineering, the key of machine learning.
