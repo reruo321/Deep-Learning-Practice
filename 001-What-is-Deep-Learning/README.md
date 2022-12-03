@@ -48,3 +48,10 @@ Moreover, as deep learning has been used in various problems, it becomes a subst
 
 ### Characteristic of Deep Learning
 Deep learning runs better in many problems, and it completely automates feature engineering, the key of machine learning.
+
+Old machine learning methods, which are shallow learning, just converts input data into one or two continuous layers of representations, with SVM or decision tree. However, these methods generally cannot provide well-refined representation on complicated problems. Therefore, human should convert initial input data in several ways, so that these machine learning methods process it well, which is called "feature engineering". **Feature Engineering** is the process of using domain knowledge to extract features from raw data, to operate machine learning algorithm using those features.
+
+By the way, deep learning can completely automate this step by learning all features at once. Therefore, we can use one end-to-end deep learning model as a substitute for high-degree of process. Besides, it creates more complicated representations throughout layers, and gradual intermediate representations (IR) are jointly learned with it. Thus, it is way more powerful than former machine learning apporaches, which study all representation layers continuously. (greedily)
+
+### Recent Trends of Deep Learning
+To get recent information of machine learning, it is good to check Kaggle to look for lectures and competitions. Especially, focus on gradient boosting machine (using XGBoost library) for shallow learning, and deep learning (Keras library) for perceptual problems.
