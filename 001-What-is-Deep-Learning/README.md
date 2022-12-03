@@ -54,4 +54,6 @@ Old machine learning methods, which are shallow learning, just converts input da
 By the way, deep learning can completely automate this step by learning all features at once. Therefore, we can use one end-to-end deep learning model as a substitute for high-degree of process. Besides, it creates more complicated representations throughout layers, and gradual intermediate representations (IR) are jointly learned with it. Thus, it is way more powerful than former machine learning apporaches, which study all representation layers continuously. (greedily)
 
 ### Recent Trends of Deep Learning
-To get recent information of machine learning, it is good to check Kaggle to look for lectures and competitions. Especially, focus on gradient boosting machine (using XGBoost library) for shallow learning, and deep learning (Keras library) for perceptual problems.
+To get recent information of machine learning, it is good to check Kaggle to look for lectures and competitions. Especially, focus on gradient boosting machine (using XGBoost library) for shallow learning, and deep learning (using Keras library) for perceptual problems.
+
+## Why Deep Learning? Why Now?
