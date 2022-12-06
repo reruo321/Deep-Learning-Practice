@@ -71,4 +71,10 @@ Deep Learning Summary:
 To get recent information of machine learning, it is good to check Kaggle to look for lectures and competitions. Especially, focus on gradient boosting machine (using XGBoost library) for shallow learning, and deep learning (using Keras library) for perceptual problems.
 
 ## Why Deep Learning? Why Now?
-There were three technical powers that made progress in machine learning: Hardware, Dataset & Benchmark, and Advancement of Algorithm.
+There were three technical powers that made progress in machine learning:
+
+* Hardware
+* Dataset & Benchmark
+* Advancement of Algorithm
+
+
