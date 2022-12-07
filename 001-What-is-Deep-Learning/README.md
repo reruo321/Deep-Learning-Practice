@@ -78,7 +78,7 @@ There were three technical powers that made progress in machine learning:
 3. Advancement of Algorithm
 
 ### 1. Hardware
-* Process of Cluster Development: With huge amount of CPUs → With small amount of GPUs → With hundreds of GPUs ...
+* Process of Cluster Development: With huge amount of CPUs → With small amount of GPUs → With hundreds of GPUs → Developing deep learning chip, TPU ...
 
 As GPU which is more powerful than CPU in parallelism has been developed, computing of a cluster with multiple GPUs also has been rapidly grown.
 
@@ -94,5 +94,16 @@ As GPU which is more powerful than CPU in parallelism has been developed, comput
 | Instruction Sets | ○ | △ |
 
 ### 2. Dataset & Benchmark
+Data is fuel of deep learning. Large number of data on the Internet and big datasets such as ImageNet have led to growth of deep learning.
 
 ### 3. Advancement of Algorithm
+It was a challenge to find a stable way to train deep neural network. The biggest problem was gradient propagation, since feedback signal to train neural network faded away as layers increased.
+
+Deep learning has been highlighted after three simple but important algorithms improved:
+
+1. Activation Function - Better suited to neural network layers
+2. Weight Initialization - Made pretraning per layer be out of use
+3. Optimization - RMSProp, Adam, ...
+
+Moreover, high level techniques such as batch normalization, residual connection, and depthwise separable convolution were developed.
+
