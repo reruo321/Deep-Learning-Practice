@@ -88,6 +88,9 @@ As GPU which is more powerful than CPU in parallelism has been developed, comput
 | ----- | --- | --- |
 | Usage | General Purposes | Creating Images for Computer Graphics </br> & Video Game Consoles </br> Accelerate Massive Repetitive Calculations |
 | Parallelism | △ | ○ |
+| Video Rendering | △ | ○ |
+| Complex Mathematical Calculations | △ | ○ |
+| Cryptocurrency Mining | △ | ○ |
 | Instruction Sets | ○ | △ |
 
 ### 2. Dataset & Benchmark
