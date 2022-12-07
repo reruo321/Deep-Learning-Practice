@@ -78,7 +78,17 @@ There were three technical powers that made progress in machine learning:
 3. Advancement of Algorithm
 
 ### 1. Hardware
+* Process of Cluster Development: With huge amount of CPUs → With small amount of GPUs → With hundreds of GPUs ...
+
 As GPU which is more powerful than CPU in parallelism has been developed, computing of a cluster with multiple GPUs also has been rapidly grown.
+
+#### CPU vs GPU
+
+| Table | CPU | GPU |
+| ----- | --- | --- |
+| Usage | General Purposes | Creating Images for Computer Graphics </br> & Video Game Consoles </br> Accelerate Massive Repetitive Calculations |
+| Parallelism | △ | ○ |
+| Instruction Sets | ○ | △ |
 
 ### 2. Dataset & Benchmark
 
