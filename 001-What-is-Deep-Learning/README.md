@@ -73,8 +73,13 @@ To get recent information of machine learning, it is good to check Kaggle to loo
 ## Why Deep Learning? Why Now?
 There were three technical powers that made progress in machine learning:
 
-* Hardware
-* Dataset & Benchmark
-* Advancement of Algorithm
+1. Hardware
+2. Dataset & Benchmark
+3. Advancement of Algorithm
 
+### 1. Hardware
+As GPU which is more powerful than CPU in parallelism has been developed, computing of a cluster with multiple GPUs also has been rapidly grown.
 
+### 2. Dataset & Benchmark
+
+### 3. Advancement of Algorithm
