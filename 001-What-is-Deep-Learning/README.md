@@ -111,6 +111,6 @@ Moreover, high level techniques such as batch normalization, residual connection
 The three reasons that the current state of deep learning is called "revolution" are:
 
 1. Simplicity - No need to use feature engineering. Can make a model with a few Tensor operation and train it with end-to-end
-2. Expandability - 
-3. Utility & Reusability
+2. Expandability - Deep learning is easily parallelized in GPU or TPU, so takes advantage of Moore's Law.
+3. Utility & Reusability - 
 
