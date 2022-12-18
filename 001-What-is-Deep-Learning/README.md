@@ -107,3 +107,10 @@ Deep learning has been highlighted after three simple but important algorithms i
 
 Moreover, high level techniques such as batch normalization, residual connection, and depthwise separable convolution were developed.
 
+## Revolution of AI
+The three reasons that the current state of deep learning is called "revolution" are:
+
+1. Simplicity - No need to use feature engineering. Can make a model with a few Tensor operation and train it with end-to-end
+2. Expandability - 
+3. Utility & Reusability
+
