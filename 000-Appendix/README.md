@@ -99,3 +99,11 @@ While SVM performs linear classification, the kernel method allows the algorithm
 It seems good to mapping data to high-dimensional space for making the classification problem easier, but it is hard to realize it with computer actually. Here is why the kernel method is needed. It does not need to get the actual coordinate of mapped data in higher dimension. It just require to get the distance between two data points, which is efficiently calculated by "kernel function".
 
 ![001kernel](https://user-images.githubusercontent.com/48712088/205038180-5f0f0a44-68f7-4cdc-8c9e-bdeb8af0316b.jpg)
+
+# Machine Learning
+## Class, Sample, Label
+**Class** in machine learning is a category in classification problem.
+
+**Sample** is a data point, which is a vector expressed as a position in multidimensional space.
+
+**Label** is a class of the specific sample.
