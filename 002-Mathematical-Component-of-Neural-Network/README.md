@@ -7,10 +7,14 @@ The MNIST dataset is a well-known large database of handwritten digits, and is i
 
 ### Neural Network
 #### Layer
-**Layer** is the core of neural network, which is a kind of data processing filter. It exports more meaningful representation from input data.
+**Layer** is the core of neural network, which is a kind of data processing filter. It exports more meaningful representation from input data. Most of deep learning models consist of some connected simple layers, and they gradually refines data.
 
-Most of deep learning models consist of some connected simple layers, and they gradually refines data.
+#### Compiling
+To train a neural network, there are three things to be included while compiling it:
 
+  1. **Loss Function**
+  2. **Optimizer**
+  3. **Indicator to Monitor Training and Testing**
 
 ## Data Expression for Neural Network
 
