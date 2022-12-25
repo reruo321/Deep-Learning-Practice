@@ -12,11 +12,12 @@ The MNIST dataset is a well-known large database of handwritten digits, and is i
 #### Compiling
 To train a neural network, there are three things to be included while compiling it:
 
-  1. **Loss Function**
-  2. **Optimizer**
-  3. **Indicator to Monitor Training and Testing**
+  1. **Loss Function**: Measures the performance of neural network with training data, so that it can be trained on the right track.
+  2. **Optimizer**: Mechanism to update the network based on input data + loss function.
+  3. **Indicator to Monitor Training and Testing**: An example is accuracy, the ratio of correctly classified images.
 
 ## Data Expression for Neural Network
+
 
 ## The Gear of Neural Network: Tensor Operator
 
