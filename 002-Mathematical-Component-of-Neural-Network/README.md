@@ -17,7 +17,8 @@ To train a neural network, there are three things to be included while compiling
   3. **Indicator to Monitor Training and Testing**: An example is accuracy, the ratio of correctly classified images.
 
 ## Data Expression for Neural Network
-
+### Tensor
+**Tensor** is a container
 
 ## The Gear of Neural Network: Tensor Operator
 
