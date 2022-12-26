@@ -18,7 +18,7 @@ To train a neural network, there are three things to be included while compiling
 
 ## Data Expression for Neural Network
 ### Tensor
-**Tensor** is a container
+**Tensor** is a multidimensional NumPy array to save data. Most of the latest machine learning systems uses tensor as basic data structure. It is a generalized form of array with the arbitrary number of dimensions, and it usually contains numerical data.
 
 ## The Gear of Neural Network: Tensor Operator
 
