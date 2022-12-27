@@ -20,6 +20,9 @@ To train a neural network, there are three things to be included while compiling
 ### Tensor
 **Tensor** is a multidimensional NumPy array to save data. Most of the latest machine learning systems uses tensor as basic data structure. It is a generalized form of array with the arbitrary number of dimensions, and it usually contains numerical data.
 
+#### Scalar Tensor
+**Scalar tensor(Scalar, zero-dimensional tensor, 0D tensor)** is a tensor containing only one number.
+
 ## The Gear of Neural Network: Tensor Operator
 
 ## 
