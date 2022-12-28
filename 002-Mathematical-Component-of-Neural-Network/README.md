@@ -21,7 +21,18 @@ To train a neural network, there are three things to be included while compiling
 **Tensor** is a multidimensional NumPy array to save data. Most of the latest machine learning systems uses tensor as basic data structure. It is a generalized form of array with the arbitrary number of dimensions, and it usually contains numerical data.
 
 #### Scalar Tensor
-**Scalar tensor(Scalar, zero-dimensional tensor, 0D tensor)** is a tensor containing only one number. float32 or float64 number is tensor (or array scalar) in NumPy.
+**Scalar tensor(Scalar, zero-dimensional tensor, 0D tensor, array scalar)** is a tensor containing only one number. It is either float32 or float64 in NumPy. You can check the number of dimensions (or axes) of a NumPy array, by using *ndim*. Scalar tensor is ndim == 0. Notice that the number of axes is also called "rank".
+
+    # Scalar Tensor
+    >>> import numpy as np
+    >>> x = np.array(12)
+    >>> x
+      array(12)
+    >>> x.ndim
+      0
+
+#### Vector (1D Tensor)
+
 
 ## The Gear of Neural Network: Tensor Operator
 
