@@ -32,7 +32,18 @@ To train a neural network, there are three things to be included while compiling
       0
 
 #### Vector (1D Tensor)
+**Vector**, or **1D tensor** is an array of numbers, which has only one axis.
 
+    # 1D Tensor
+    # This example vector is 5D vector.
+    >>> import numpy as np
+    >>> x = np.array([1, 2, 3, 4, 5])
+    >>> x
+      array([1, 2, 3, 4, 5])
+    >>> x.ndim
+      1
+
+While 5D vector has one axis with 5 dimensions, 5D tensor has five axes. The better expression for 5D tensor will be "five rank tensor".
 
 ## The Gear of Neural Network: Tensor Operator
 
