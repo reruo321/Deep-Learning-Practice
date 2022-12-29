@@ -20,6 +20,10 @@ To train a neural network, there are three things to be included while compiling
 ### Tensor
 **Tensor** is a multidimensional NumPy array to save data. Most of the latest machine learning systems uses tensor as basic data structure. It is a generalized form of array with the arbitrary number of dimensions, and it usually contains numerical data.
 
+Note that **XD tensor** means the tensor has X axes, while **XD vector** has an axis with X dimensions. (X elements) The better technical expression for XD tensor would be "X rank tensor".
+
+0D tensor (Scalar) → 1D tensor (Vector) → 2D tensor (Matrix) → 3D tensor → ...
+
 #### Scalar Tensor
 **Scalar tensor(Scalar, zero-dimensional tensor, 0D tensor, array scalar)** is a tensor containing only one number. It is either float32 or float64 in NumPy. You can check the number of dimensions (or axes) of a NumPy array, by using *ndim*. Scalar tensor is ndim == 0. Notice that the number of axes is also called "rank".
 
@@ -35,7 +39,7 @@ To train a neural network, there are three things to be included while compiling
 **Vector**, or **1D tensor** is an array of numbers, which has only one axis.
 
     # 1D Tensor
-    # This example vector is 5D vector.
+    # This example is a 5D vector, not a 5D tensor
     >>> import numpy as np
     >>> x = np.array([1, 2, 3, 4, 5])
     >>> x
@@ -43,7 +47,19 @@ To train a neural network, there are three things to be included while compiling
     >>> x.ndim
       1
 
-While 5D vector has one axis with 5 dimensions, 5D tensor has five axes. The better expression for 5D tensor will be "five rank tensor".
+#### Matrix (2D Tensor)
+**Matrix**, or **2D tensor** has two axes: row and column.
+
+If a matrix x is:
+
+    x = np.array([[1, 2, 3, 4, 5],
+                  [6, 7, 8, 9, 10],
+                  [11, 12, 13, 14, 15]])
+
+The first row of it is \[1, 2, 3, 4, 5\], and the first column of it is \[1, 6, 11\].
+
+#### High-Dimensional Tensor
+We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 4D are used in deep learning, and sometimes also 5D for processing video data.
 
 ## The Gear of Neural Network: Tensor Operator
 
