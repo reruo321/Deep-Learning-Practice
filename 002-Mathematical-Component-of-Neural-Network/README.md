@@ -69,6 +69,8 @@ The first row of it is \[1, 2, 3, 4, 5\], and the first column of it is \[1, 6, 
 #### High-Dimensional Tensor
 We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 4D are used in deep learning, and sometimes also 5D for processing video data.
 
+### Manipulate Tensor with NumPy
+
 ## The Gear of Neural Network: Tensor Operator
 
 ## 
