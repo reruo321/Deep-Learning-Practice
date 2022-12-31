@@ -67,9 +67,18 @@ If a matrix x is:
 The first row of it is \[1, 2, 3, 4, 5\], and the first column of it is \[1, 6, 11\].
 
 #### High-Dimensional Tensor
-We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 4D are used in deep learning, and sometimes also 5D for processing video data.
+We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 4D are used in deep learning, and sometimes also up to 5D for processing video data.
 
 ### Manipulate Tensor with NumPy
+**Slicing** is a behavior selecting specific elements in an array. You can slice some numbers from the previous example by calling
+
+    # Slicing a Number
+    train_images[i]
+    
+    # Slicing 11th, 12th, ..., 100th number
+    train_images[10:100]
+    train_images[10:100, :, :]
+    train_images[10:100, 0:28, 0:28]
 
 ## The Gear of Neural Network: Tensor Operator
 
