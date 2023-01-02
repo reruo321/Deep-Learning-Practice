@@ -89,6 +89,7 @@ We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 
 
 ### Batch Data
 
+
 ## The Gear of Neural Network: Tensor Operator
 
 
