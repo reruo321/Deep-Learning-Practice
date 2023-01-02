@@ -87,6 +87,9 @@ We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 
     # To select the middle 14x14 pixels from the image
     train_images[:, 7:-7, 7:-7]
 
+### Batch Data
+
 ## The Gear of Neural Network: Tensor Operator
+
 
 ## 
