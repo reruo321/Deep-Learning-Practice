@@ -78,7 +78,14 @@ We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 
     # Slicing 11th, 12th, ..., 100th number
     train_images[10:100]
     train_images[10:100, :, :]
-    train_images[10:100, 0:28, 0:28]  # Slice train_images.shape = (60000, 28, 28) into shape (90, 28, 28)
+    # Slice train_images.shape == (60000, 28, 28) into shape (90, 28, 28), same as the above ones
+    train_images[10:100, 0:28, 0:28]
+    
+    # To select bottom right 14x14 pixels from the image
+    train_images[:, 14:, 14:]
+    
+    # To select the middle 14x14 pixels from the image
+    train_images[:, 7:-7, 7:-7]
 
 ## The Gear of Neural Network: Tensor Operator
 
