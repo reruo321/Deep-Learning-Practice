@@ -90,6 +90,17 @@ We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 
 ### Batch Data
 Generally, the first axis (since the index starts from 0, it would be actually the 0th axis) of all data tensor in deep learning is sample axis. (sample dimension) Deep learning model does not process all dataset at once, but divide data into several small batches.
 
+### Tensor in the Real World
+1. Vector Data
+2. Sequence Data (Time Series Data)
+3. Image Data
+4. Video Data
+
+#### 1. Vector Data
+**Vector data** is 2D tensor which shape is (samples, features).
+
+Most of tensors are vector data, 
+
 ## The Gear of Neural Network: Tensor Operator
 
 
