@@ -99,7 +99,12 @@ Generally, the first axis (since the index starts from 0, it would be actually t
 #### 1. Vector Data
 **Vector data** is 2D tensor which shape is (samples, features).
 
-Most of tensors are vector data, 
+Most of tensors are vector data, and in those datasets one data point can be encoded to vector, so that batch data would be encoded to 2D tensor. (= array of vector)
+Sample axis is the first, and feature axis is the second.
+
+Example: If a dataset contains information of 100,000 people on age, zip code, and salary - It can be s
+
+#### 2. 
 
 ## The Gear of Neural Network: Tensor Operator
 
