@@ -90,11 +90,13 @@ We can make a ND tensor by combining (N-1)D tensors. Usually tensors from 0D to 
 ### Batch Data
 Generally, the first axis (since the index starts from 0, it would be actually the 0th axis) of all data tensor in deep learning is sample axis. (sample dimension) Deep learning model does not process all dataset at once, but divide data into several small batches.
 
-In MNIST numeral data, a batch with the size 128 
+In MNIST numeral data, the n-th batch with the size 128 is
+
+    batch = train_images[128 * n : 128 * (n+1)]
 
 ### Tensor in the Real World
 1. Vector Data
-2. Sequence Data (Time Series Data)
+2. Sequence Data
 3. Image Data
 4. Video Data
 
@@ -104,9 +106,12 @@ In MNIST numeral data, a batch with the size 128
 Most of tensors are vector data, and in those datasets one data point can be encoded to vector, so that batch data would be encoded to 2D tensor. (= array of vector)
 Sample axis is the first, and feature axis is the second.
 
-Example: If a dataset contains information of 100,000 people on age, zip code, and salary - It can be stored in a 
+Example: If a dataset contains information of 100,000 people on age, zip code, and salary - It can be stored in a tensor with the shape (100000, 3).
 
-#### 2. 
+#### 2. Sequence Data
+**Sequence data(Time series data)** is a dataset which includes time axis and be stored in a 3D tensor.
+
+As each sample is encoded to the sequence of vectors (2D tensors), the batch data would be encoded to 3D tensor.
 
 ## The Gear of Neural Network: Tensor Operator
 
