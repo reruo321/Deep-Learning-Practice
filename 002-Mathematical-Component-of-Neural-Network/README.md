@@ -118,7 +118,10 @@ As each sample is encoded to the sequence of vectors (2D tensors), the batch dat
 
 128 batches for a 256x256 black-and-white image can be stored in a tensor with the shape == (128, 256, 256, 1). Meanwhile, 128 batches for a 256x256 color image can be stored in a tensor with the shape == (128, 256, 256, 3).
 
+There are two types of ways that assign the size of image tensors. Google's Tensorflow machine learning framework uses channel-last, (samples, height, width, color_depth). On the other hand, Theano puts the depth of color channel right behind the batch axis, (samples, color_depth, height, width).
 
+#### 4. Video Data
+**Video data** is one of the few data that needs 5D tensor in real-life. As a frame can be stored in 3D tensor with its shape (height, width, color_depth), 4D tensor with its shape (frames, height, width, color_depth) can store a sequence of frames. Therefore, batches for multiple videos would be stored in 5D tensor whose shape == (samples, frames, height, width, color_depth).
 
 ## The Gear of Neural Network: Tensor Operator
 
