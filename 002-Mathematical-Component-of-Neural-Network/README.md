@@ -113,6 +113,13 @@ Example: If a dataset contains information of 100,000 people on age, zip code, a
 
 As each sample is encoded to the sequence of vectors (2D tensors), the batch data would be encoded to 3D tensor.
 
+#### 3. Image Data
+**Image data** is usually 3D; height, width, and color channel. Although a black-and-white image can be stored in a 2D tensor because of its only one color channel, (its dimension size of color channel is 1.) it is conventially stored in a 3D tensor.
+
+128 batches for a 256x256 black-and-white image can be stored in a tensor with the shape == (128, 256, 256, 1). Meanwhile, 128 batches for a 256x256 color image can be stored in a tensor with the shape == (128, 256, 256, 3).
+
+
+
 ## The Gear of Neural Network: Tensor Operator
 
 
