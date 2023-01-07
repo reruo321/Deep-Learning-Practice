@@ -123,7 +123,9 @@ There are two types of ways that assign the size of image tensors. Google's Tens
 #### 4. Video Data
 **Video data** is one of the few data that needs 5D tensor in real-life. As a frame can be stored in 3D tensor with its shape (height, width, color_depth), 4D tensor with its shape (frames, height, width, color_depth) can store a sequence of frames. Therefore, batches for multiple videos would be stored in 5D tensor whose shape == (samples, frames, height, width, color_depth).
 
-## The Gear of Neural Network: Tensor Operator
+## The Gear of Neural Network: Tensor Operation
+Some kinds of **tensor operations** being applied to mathematical data tensor, such as tensor addition and tensor multiplication, can express all conversions that a deep neural network has learned.
 
+The first example made a neural network by stacking Dense layers.
 
 ## 
