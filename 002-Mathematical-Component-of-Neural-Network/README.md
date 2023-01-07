@@ -128,4 +128,19 @@ Some kinds of **tensor operations** being applied to mathematical data tensor, s
 
 The first example made a neural network by stacking Dense layers.
 
+    keras.layers.Dense(512, activation='relu')
+    
+This layer gets 2D tensor as an input and also an output.
+
+    output = relu(dot(W, input) + b)
+    
+Note that W is a 2D tensor, b is a vector. Both are the properties of the layer. The operation has three tensor operations: dot, addition, and ReLU.
+
+※ relu(x) = max(x, 0). If an input x is bigger than 0, it returns x, otherwise 0.
+
+### Element-Wise Operation
+ReLU and addition are element-wise operations. **Element-wise operation** is applied to each element in a tensor independently, meaning that it can do a high-degree of parallel implementation.
+
+### Broadcasting
+
 ## 
