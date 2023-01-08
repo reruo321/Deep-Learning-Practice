@@ -142,6 +142,18 @@ Note that W is a 2D tensor, b is a vector. Both are the properties of the layer.
 ReLU and addition are element-wise operations. **Element-wise operation** is applied to each element in a tensor independently, meaning that it can do a high-degree of parallel implementation.
 
 ### Broadcasting
-If there is an operation that needs two tensors with the same shape, but if the size of operands are different, broadcasting would be adjust the smaller tensor.
+If there is an operation that needs two tensors with the same shape, but if the size of operands are different, broadcasting would be adjust the smaller tensor. It is very inefficient thing that a new tensor is made. Fortunately, broadcasting is a virtual operation, not making any new tensor.
+
+How broadcasting works:
+
+1. A broadcasting axis is added to smaller tensor, to fit *ndim* of bigger tensor.
+2. Repeat (1) to fit the size of smaller tensor to the size of bigger one.
+
+#### Example
+Let X's shape == (32, 10), t's shape == (10,).
+
+1. Add the first axis to t so that its shape becomes (1, 10).
+2. Repeat t 32 times, then tensor T becomes shape == (32, 10).
+3. Now we can do a tensor addition between X and T.
 
 ## 
