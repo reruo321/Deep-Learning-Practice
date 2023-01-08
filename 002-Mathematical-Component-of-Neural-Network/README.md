@@ -142,5 +142,6 @@ Note that W is a 2D tensor, b is a vector. Both are the properties of the layer.
 ReLU and addition are element-wise operations. **Element-wise operation** is applied to each element in a tensor independently, meaning that it can do a high-degree of parallel implementation.
 
 ### Broadcasting
+If there is an operation that needs two tensors with the same shape, but if the size of operands are different, broadcasting would be adjust the smaller tensor.
 
 ## 
