@@ -142,7 +142,7 @@ Note that W is a 2D tensor, b is a vector. Both are the properties of the layer.
 ReLU and addition are element-wise operations. **Element-wise operation** is applied to each element in a tensor independently, meaning that it can do a high-degree of parallel implementation.
 
 ### Broadcasting
-If there is an operation that needs two tensors with the same shape, but if the size of operands are different, broadcasting would be adjust the smaller tensor. It is very inefficient thing that a new tensor is made. Fortunately, broadcasting is a virtual operation, not making any new tensor.
+If there is an operation that needs two tensors with the same shape, but if the size of operands are different, broadcasting would be adjust the smaller tensor. It is a very inefficient thing that a new tensor is made. Fortunately, broadcasting is a virtual operation, not making any new tensor.
 
 How broadcasting works:
 
@@ -155,5 +155,12 @@ Let X's shape == (32, 10), t's shape == (10,).
 1. Add the first axis to t so that its shape becomes (1, 10).
 2. Repeat t 32 times, then tensor T becomes shape == (32, 10).
 3. Now we can do a tensor addition between X and T.
+
+### Tensor Product
+**Tensor product (Dot operation)** is a very useful tensor operation to combine elements of input tensors.
+
+![002dot](https://user-images.githubusercontent.com/48712088/211220256-0489eaa4-f71a-4748-adf7-dea6985777de.png)
+
+Let tensor x.shape == (a, b), y.shape == (b, c). If x \* y = z, z.shape would be (a, c).
 
 ## 
