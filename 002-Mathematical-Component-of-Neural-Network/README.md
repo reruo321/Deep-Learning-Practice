@@ -165,6 +165,13 @@ Let tensor x.shape == (a, b), y.shape == (b, c). If x · y = z, z.shape would be
 
 p.s. If (a, b, c, d) · (d,) → (a, b, c). If (a, b, c, d) · (d, e) → (a, b, c, e).
 
+### Tensor Reshaping
+**Tensor reshaping** rearranges a tensor's rows and columns to fit the specific shape. The number of its elements should be equal to original one.
 
+    train_images = train_images.reshape((60000, 28 * 28))
+    
+**Transposition** is the special reshaping that is often used, which swaps rows for columns.
+
+### Geometric Analysis of Tensor Operation
 
 ## 
