@@ -161,6 +161,10 @@ Let X's shape == (32, 10), t's shape == (10,).
 
 ![002dot](https://user-images.githubusercontent.com/48712088/211220256-0489eaa4-f71a-4748-adf7-dea6985777de.png)
 
-Let tensor x.shape == (a, b), y.shape == (b, c). If x \* y = z, z.shape would be (a, c).
+Let tensor x.shape == (a, b), y.shape == (b, c). If x · y = z, z.shape would be (a, c).
+
+p.s. If (a, b, c, d) · (d,) → (a, b, c). If (a, b, c, d) · (d, e) → (a, b, c, e).
+
+
 
 ## 
