@@ -173,5 +173,9 @@ p.s. If (a, b, c, d) · (d,) → (a, b, c). If (a, b, c, d) · (d, e) → (a, b,
 **Transposition** is the special reshaping that is often used, which swaps rows for columns.
 
 ### Geometric Analysis of Tensor Operation
+All tensor operations can be geometrically analyzed. Also, basic geometric operations such as affine transformation, rotation, and scaling can be expressed as tensor operations.
+
+### Geometric Analysis of Deep Learning
+We have learnt that a neural network is the connection of tensor operations, and all of them are the geometrical conversion of input data. The step to unfold a manifold of data as neat formulation would be a metaphor for it.
 
 ## 
