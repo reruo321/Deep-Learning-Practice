@@ -178,4 +178,4 @@ All tensor operations can be geometrically analyzed. Also, basic geometric opera
 ### Geometric Analysis of Deep Learning
 We have learnt that a neural network is the connection of tensor operations, and all of them are the geometrical conversion of input data. The step to unfold a manifold of data as neat formulation would be a metaphor for it.
 
-## 
+## 2.4 The Engine of Neural Network: Gradient Based Optimization
