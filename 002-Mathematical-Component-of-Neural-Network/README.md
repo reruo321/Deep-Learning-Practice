@@ -1,4 +1,4 @@
-# Mathematical Component of Neural Network
+# Unit 2 - Mathematical Component of Neural Network
 From this chapter, I will add some sample codes on Google Colab notebooks.
 
 ## 2.1 The First Meeting with Neural Network
@@ -179,3 +179,19 @@ All tensor operations can be geometrically analyzed. Also, basic geometric opera
 We have learnt that a neural network is the connection of tensor operations, and all of them are the geometrical conversion of input data. The step to unfold a manifold of data as neat formulation would be a metaphor for it.
 
 ## 2.4 The Engine of Neural Network: Gradient Based Optimization
+We have learnt that each layer in the first neural network example had converted the input data like
+
+    output = relu(dot(W, input) + b)
+    # W: weight, kernel
+    # b: bias
+
+In the random initialization step, a matrix of weights is filled with small random numbers. Although *relu(dot(W, input) + b)* may have useless representation at first, its weight would be gradually adjusted (trained) based on feedback signal.
+
+Training loop is like:
+
+1. Export training sample *x* and a batch of the target *y*.
+2. (Forward pass) Run network using *x*, and find prediction, *y_pred*.
+3. Estimate the difference between *y* and *y_pred*, and calculate the network loss for this batch.
+4. Update all weights in the network to reduce the loss for the batch.
+
+### 
