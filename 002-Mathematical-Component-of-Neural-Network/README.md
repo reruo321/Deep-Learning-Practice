@@ -1,7 +1,7 @@
 # Mathematical Component of Neural Network
 From this chapter, I will add some sample codes on Google Colab notebooks.
 
-## The First Meeting with Neural Network
+## 2.1 The First Meeting with Neural Network
 ### The MNIST Dataset
 The MNIST dataset is a well-known large database of handwritten digits, and is included in Keras as NumPy format.
 
@@ -16,7 +16,7 @@ To train a neural network, there are three things to be included while compiling
   2. **Optimizer**: Mechanism to update the network based on input data + loss function.
   3. **Indicator to Monitor Training and Testing**: An example is accuracy, the ratio of correctly classified images.
 
-## Data Expression for Neural Network
+## 2.2 Data Expression for Neural Network
 ### Tensor
 **Tensor** is a multidimensional NumPy array to save data. Most of the latest machine learning systems uses tensor as basic data structure. It is a generalized form of array with the arbitrary number of dimensions, and it usually contains numerical data.
 
@@ -123,7 +123,7 @@ There are two types of ways that assign the size of image tensors. Google's Tens
 #### 4. Video Data
 **Video data** is one of the few data that needs 5D tensor in real-life. As a frame can be stored in 3D tensor with its shape (height, width, color_depth), 4D tensor with its shape (frames, height, width, color_depth) can store a sequence of frames. Therefore, batches for multiple videos would be stored in 5D tensor whose shape == (samples, frames, height, width, color_depth).
 
-## The Gear of Neural Network: Tensor Operation
+## 2.3 The Gear of Neural Network: Tensor Operation
 Some kinds of **tensor operations** being applied to mathematical data tensor, such as tensor addition and tensor multiplication, can express all conversions that a deep neural network has learned.
 
 The first example made a neural network by stacking Dense layers.
