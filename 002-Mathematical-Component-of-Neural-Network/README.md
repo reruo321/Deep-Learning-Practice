@@ -194,4 +194,6 @@ Training loop is like:
 3. Estimate the difference between *y* and *y_pred*, and calculate the network loss for this batch.
 4. Update all weights in the network to reduce the loss for the batch.
 
-### 
+Since each element in all weight matrices takes costly forward pass twice, the method is very inefficient. Therefore, it is better to find the gradient of network weight's loss, using the fact that all operations in neural network are differentiable.
+
+### What is Derivative?
