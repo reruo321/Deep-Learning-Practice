@@ -191,9 +191,19 @@ Training loop is like:
 
 1. Export training sample *x* and a batch of the target *y*.
 2. (Forward pass) Run network using *x*, and find prediction, *y_pred*.
-3. Estimate the difference between *y* and *y_pred*, and calculate the network loss for this batch.
+3. Estimate the difference between *y_pred* and *y*, and calculate the network loss for this batch.
 4. Update all weights in the network to reduce the loss for the batch.
 
 Since each element in all weight matrices takes costly forward pass twice, the method is very inefficient. Therefore, it is better to find the gradient of network weight's loss, using the fact that all operations in neural network are differentiable.
 
 ### What is Derivative?
+If a function *f(x) = y* (x, y ∈ R) is continuous and smooth, and if epsilon_x is small enough, we can approximate *f* on a point *p* to a linear function with slope *a*.
+
+    f(x + epsilon_x) = y + epsilon_y
+    
+    ※ If x→p
+    f(x + epsilon_x) = y + a * epsilon_x
+    
+The slope is called **derivative of *f* on *p***. Since all differentiable function f(x) has its derivative function f'(x), we can use it to find x that minimize f(x).
+
+### The Derivative of Tensor Operation: Gradient
