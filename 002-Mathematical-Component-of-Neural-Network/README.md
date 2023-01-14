@@ -207,3 +207,4 @@ If a function *f(x) = y* (x, y ∈ R) is continuous and smooth, and if epsilon_x
 The slope is called **derivative of *f* on *p***. Since all differentiable function f(x) has its derivative function f'(x), we can use it to find x that minimize f(x).
 
 ### The Derivative of Tensor Operation: Gradient
+**Gradient** is the derivative of tensor operation.
