@@ -209,4 +209,4 @@ The slope is called **derivative of *f* on *p***. Since all differentiable funct
 ### The Derivative of Tensor Operation: Gradient
 **Gradient** is the derivative of tensor operation.
 
-Suppose that there is an input vector *x*, a matrix *W*, a target *y*, and a loss function *loss*.
+Suppose that there is an input vector *x*, a matrix *W*, a target *y*, and a loss function *loss*. Then we can find the prediction of y, *y_pred*, and also the difference between *y* and *y_pred*.
