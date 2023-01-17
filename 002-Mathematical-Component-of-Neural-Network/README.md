@@ -210,3 +210,12 @@ The slope is called **derivative of *f* on *p***. Since all differentiable funct
 **Gradient** is the derivative of tensor operation.
 
 Suppose that there is an input vector *x*, a matrix *W*, a target *y*, and a loss function *loss*. Then we can find the prediction of y, *y_pred*, and also the difference between *y* and *y_pred*.
+
+    y_pred = dot(W, x)
+    loss_value = loss(y_pred, y)
+    
+Also, if *x* and *y* are fixed, we can think this function maps W to the loss value.
+
+    loss_value = f(W)
+    
+Let's say that the current value of *W* is *W0*.
