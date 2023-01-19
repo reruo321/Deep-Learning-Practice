@@ -221,3 +221,5 @@ Also, if *x* and *y* are fixed, we can think this function maps W to the loss va
 Let's say that the current value of *W* is *W0*. Then we can express the derivative of *f* on *W0* as **gradient(f)(W0)**, the tensor which has the same size as *W*. An element of the tensor *gradient(f)(W0)\[i, j\]* shows the direction and the size of being changed *loss_value*, when W0\[i, j\] is changed. Therefore, *gradient(f)(W0)* is the gradient of *f(W) = loss_value* on *W0*.
 
 We can reduce the value of *f(W)* by moving *W* to the opposite direction of the gradient. (derivative)
+
+### Stochastic Gradient Descent
