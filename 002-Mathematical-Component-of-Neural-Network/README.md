@@ -223,4 +223,5 @@ Let's say that the current value of *W* is *W0*. Then we can express the derivat
 We can reduce the value of *f(W)* by moving *W* to the opposite direction of the gradient. (derivative)
 
 ### Stochastic Gradient Descent
-Theoretically, if a function is differentiable, we can analytically find its minimum value.
+Theoretically, if a function is differentiable, we can analytically find its minimum value by finding points where the derivative are 0 and comparing them. In other words, we can find the minimum value of a loss function in neural network by solving *gradient(f)(W) = 0*. However, it is actually very difficult to do it since real neural networks often have tens of millions of parameters.
+
