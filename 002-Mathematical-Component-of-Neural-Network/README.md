@@ -223,3 +223,4 @@ Let's say that the current value of *W* is *W0*. Then we can express the derivat
 We can reduce the value of *f(W)* by moving *W* to the opposite direction of the gradient. (derivative)
 
 ### Stochastic Gradient Descent
+Theoretically, if a function is differentiable, we can analytically find its minimum value.
