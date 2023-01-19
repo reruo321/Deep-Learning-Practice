@@ -225,3 +225,10 @@ We can reduce the value of *f(W)* by moving *W* to the opposite direction of the
 ### Stochastic Gradient Descent
 Theoretically, if a function is differentiable, we can analytically find its minimum value by finding points where the derivative are 0 and comparing them. In other words, we can find the minimum value of a loss function in neural network by solving *gradient(f)(W) = 0*. However, it is actually very difficult to do it since real neural networks often have tens of millions of parameters.
 
+Instead, we can gradually reduce the loss by modifying parameters bit by bit, based on the current loss value in a random batch data. The below is the **mini-batch stochastic gradient descent (mini-batch SGD)** which picks each batch data randomly.
+
+1. Export a training sample batch *x* and its target *y*.
+2. Run network using *x*, and find prediction, *y_pred*.
+3. Estimate the difference between *y_pred* and *y*, and calculate the network loss for this batch.
+4. Find the gradient of the loss function for the network parameter. (backward pass)
+5. Move the parameter a bit to the opposite direction of the gradient.
