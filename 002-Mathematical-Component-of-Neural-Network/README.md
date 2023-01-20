@@ -232,3 +232,5 @@ Instead, we can gradually reduce the loss by modifying parameters bit by bit, ba
 3. Estimate the difference between *y_pred* and *y*, and calculate the network loss for this batch.
 4. Find the gradient of the loss function for the network parameter. (backward pass)
 5. Move the parameter a bit to the opposite direction of the gradient.
+
+Moreover, it is very important to choose suitable *step* value. Too small value will cause too many repetitions for going down loss function curve, and it is possible to get stuck in local minimum. Meanwhile, if the value is too big, it will move to completely random position in the curve.
