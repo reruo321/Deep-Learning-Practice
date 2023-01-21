@@ -234,3 +234,7 @@ Instead, we can gradually reduce the loss by modifying parameters bit by bit, ba
 5. Move the parameter a bit to the opposite direction of the gradient.
 
 Moreover, it is very important to choose suitable *step* value. Too small value will cause too many repetitions for going down loss function curve, and it is possible to get stuck in local minimum. Meanwhile, if the value is too big, it will move to completely random position in the curve.
+
+Using appropriate size of mini-batch will be a good compromise plan between true SGD (one sample + one target per repetition) and batch SGD. (repetition using all data, accuracy ↑ cost ↑)
+
+There are many SGD variants that consider previously updated weights, such as SGD using momentum, Adagrad, and RMSProp.
