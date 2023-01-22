@@ -240,3 +240,8 @@ Using appropriate size of mini-batch will be a good compromise plan between true
 There are many SGD variants that consider previously updated weights, such as SGD using momentum, Adagrad, and RMSProp. **Momentum** is the product of the mass and velocity of an object in physics, and its concept is also very important for solving SGD issues of convergence speed and local minimum.
 
 ### Derivative Chaining: Backpropagation Algorithm
+Suppose that there is a network *f* that contains three tensor operations *a*, *b*, and *c*, and weight matrices *W1*, *W2*, and *W3*.
+
+    f(W1, W2, W3) = a(W1, b(W2, c(W3)))
+
+In calculus, such connected function can be induced by the **chain rule**, *f(g(x))' = f'(g(x)) * g'(x)*. The algorithm that applies the chain rule to gradient calculation in neural network is **backpropagation (reverse-mode automatic differentiation)**. It starts from the final loss value, and it goes backward to find the degree that each parameter contributed to the loss.
