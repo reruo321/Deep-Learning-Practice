@@ -237,4 +237,6 @@ Moreover, it is very important to choose suitable *step* value. Too small value 
 
 Using appropriate size of mini-batch will be a good compromise plan between true SGD (one sample + one target per repetition) and batch SGD. (repetition using all data, accuracy ↑ cost ↑)
 
-There are many SGD variants that consider previously updated weights, such as SGD using momentum, Adagrad, and RMSProp.
+There are many SGD variants that consider previously updated weights, such as SGD using momentum, Adagrad, and RMSProp. **Momentum** is the product of the mass and velocity of an object in physics, and its concept is also very important for solving SGD issues of convergence speed and local minimum.
+
+### Derivative Chaining: Backpropagation Algorithm
