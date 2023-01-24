@@ -245,3 +245,5 @@ Suppose that there is a network *f* that contains three tensor operations *a*, *
     f(W1, W2, W3) = a(W1, b(W2, c(W3)))
 
 In calculus, such connected function can be induced by the **chain rule**, *f(g(x))' = f'(g(x)) * g'(x)*. The algorithm that applies the chain rule to gradient calculation in neural network is **backpropagation (reverse-mode automatic differentiation)**. It starts from the final loss value, and it goes backward to find the degree that each parameter contributed to the loss.
+
+These days, cutting edge frameworks possible to compute symbolic differentiation will be popular.
