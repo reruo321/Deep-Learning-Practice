@@ -250,3 +250,36 @@ Symbolic differentiation helps users not to embody the exact backpropagation alg
 
 ## 2.5 Review the First Example
 
+    (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
+    
+    train_images = train_images.reshape((60000, 28 * 28))
+    train_images = train_images.astype('float32') / 255
+    
+    test_images = test_images.reshape((10000, 28 * 28))
+    test_images = test_images.astype('float32') / 255
+    
+* Data type of input image: float32
+* Size of training image: (60000, 784)
+* Size of testing image: (10000, 784)
+
+      network = models.Sequential()
+      network.add(layers.Dense(512, activation='relu', input_shape(28 * 28,)))
+      network.add(layers.Dense(10, activation='softmax'))
+      
+* Network: 2 Dense layers
+* Each layer: includes weight tensor, applies some simple tensor operations to input data
+* Weight tensor: where network saves information
+
+      network.compile(optimizer='rmsprop',
+                     loss='categorical_crossentropy',
+                     metrics=['accuracy'])
+                     
+* rmsprop: optimizer
+* categorical_crossentropy: loss function. used as feedback signal to train weight tensor, minimized while training.
+* Reducing loss: by mini-batch stochastic gradient descent (mini-batch SGD)
+
+      network.fit(train_images, train_labels, epochs=5, batch_size=128)
+      
+When calling *fit* method, the network repeats training data five times, using mini batches in which each of them has 128 samples. **Epoch** is the repeat on the entire training data. On every epoch, the network calculates the weight gradient for loss in batch, and updates the weight based on the result. Each epoch will perform gradient update 469 times, (60000/128=468.75, the last batch has 96 samples.) so the network will do it total 2,345 times.
+
+## 2.6 Summary
