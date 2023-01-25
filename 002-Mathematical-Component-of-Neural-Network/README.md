@@ -275,7 +275,7 @@ Symbolic differentiation helps users not to embody the exact backpropagation alg
                      metrics=['accuracy'])
                      
 * rmsprop: optimizer
-* categorical_crossentropy: loss function. used as feedback signal to train weight tensor, minimized while training.
+* categorical_crossentropy: loss function. used as feedback signal to learn weight tensor, minimized while training.
 * Reducing loss: by mini-batch stochastic gradient descent (mini-batch SGD)
 
       network.fit(train_images, train_labels, epochs=5, batch_size=128)
@@ -283,3 +283,9 @@ Symbolic differentiation helps users not to embody the exact backpropagation alg
 When calling *fit* method, the network repeats training data five times, using mini batches in which each of them has 128 samples. **Epoch** is the repeat on the entire training data. On every epoch, the network calculates the weight gradient for loss in batch, and updates the weight based on the result. Each epoch will perform gradient update 469 times, (60000/128=468.75, the last batch has 96 samples.) so the network will do it total 2,345 times.
 
 ## 2.6 Summary
+* **Learning**: finding the combination of model parameters that minimizes loss fuction, when training data sample + its target are given.
+* **Learning**: randomly select data sample + target's batch → calculate the gradient of parameter of loss. Move the network parameter to the opposite direction of the gradient.
+* The fact that neural network is connected with **differentiable tensor operations** makes the whole learning process possible. Uses **the chain rule** to make gradient function which maps the current parameter and batch data.
+* Two core concepts we will see in the next unit, **loss** and **optimizer**, should be defined before driving data into the network.
+* **Loss**: should be minimized while training → used to measure the success of problem.
+* **Optimizer**: defines the exact way that the gradient of loss updates the parameter. Example - RMSProp optimizer, SGD using momentum, etc....
