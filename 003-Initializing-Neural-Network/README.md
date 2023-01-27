@@ -11,3 +11,6 @@ As we saw in the previous units, there are some relevant elements for training a
 * **Optimizer** that decides learning method.
 
 ### Layer: Component of Deep Learning
+**Layer** is the core data structure of neural network. It is a data processing module that imports/exports one or more tensors as a input/output. Most layers have a state called weight. **Weight** is one or more tensors learned by SGD, containing knowledge the network has learnt.
+
+Each layer has different suitable tensor format and data processing method.
