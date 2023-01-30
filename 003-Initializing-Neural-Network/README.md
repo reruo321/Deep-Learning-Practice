@@ -25,3 +25,23 @@ We will see these things frequently while studying:
 * An inception block
 
 Network structure defines **hypothesis space**. In other words, we can limit the space to a series of specific tensor operations, which maps input data to output one, by selecting specific network structure.
+
+### Loss Function & Optimizer: The Key to Adjust Learning Process
+After defining the network structure, we should select two more things:
+
+* **Loss function (Objective function)**: Should be minimized while training.
+* **Optimizer**: Decides how to update the network, based on loss function. Embodies specific kind of SGD.
+
+A network with multiple output can have multiple loss functions, one per each output. However, since SGD sets only one scalar loss value as base, all loss will be calculated the average and combined to one scalar in the network with multiple output.
+
+### Selecting Object Function
+It is very important to select appropriate object function for a problem. We will study general choices in detail later.
+
+(Examples)
+
+* Classification problem with two classes: **Binary crossentropy**
+* Classification problem with multiple classes: **Categorical crossentropy**
+* Regression problem: **Mean squared error**
+* Sequence learning problem: **CTC(Connection Temporal Classification)**
+
+## 3.2 Keras Introduction
