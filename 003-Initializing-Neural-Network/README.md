@@ -45,3 +45,12 @@ It is very important to select appropriate object function for a problem. We wil
 * Sequence learning problem: **CTC(Connection Temporal Classification)**
 
 ## 3.2 Keras Introduction
+In this book we use [Keras](https://keras.io) for code examples. It is a deep learning framework for Python which allows users to make and train almost kinds of deep learning models easily.
+
+The characteristics of Keras are:
+
+* Can be run both in CPU and GPU, with the same code.
+* Has easy-to-use API so that can easily make deep learning model prototype.
+* Supports convolutional neural network (for computer vision) and recurrent neural network (for sequence processing). Can combine them.
+* Can make any network structure: From General Adversarial Network(GAN) to Neural Turing Machine, and etc....
+
