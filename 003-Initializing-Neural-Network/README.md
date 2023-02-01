@@ -54,3 +54,5 @@ The characteristics of Keras are:
 * Supports convolutional neural network (for computer vision) and recurrent neural network (for sequence processing). Can combine them.
 * Can make any network structure: From General Adversarial Network(GAN) to Neural Turing Machine, and etc....
 
+### Keras, Tensorflow, Theano, and CNTK
+**Keras** is a model-level library that provides high-level elements for making deep learning models. It does not treat low-level operations such as tensor operation or differentiation, but instead uses tensor library which is provided by Keras backend engine. Keras doe not depend on just one tensor library. It has module structure, and several backend engines are in sync with it. 
