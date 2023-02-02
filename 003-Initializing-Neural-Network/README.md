@@ -55,4 +55,8 @@ The characteristics of Keras are:
 * Can make any network structure: From General Adversarial Network(GAN) to Neural Turing Machine, and etc....
 
 ### Keras, Tensorflow, Theano, and CNTK
-**Keras** is a model-level library that provides high-level elements for making deep learning models. It does not treat low-level operations such as tensor operation or differentiation, but instead uses tensor library which is provided by Keras backend engine. Keras doe not depend on just one tensor library. It has module structure, and several backend engines are in sync with it. 
+**Keras** is a model-level library that provides high-level elements for making deep learning models. It does not treat low-level operations such as tensor operation or differentiation, but instead uses tensor library which is provided by Keras backend engine. Keras doe not depend on just one tensor library. It has module structure, and several backend engines are in sync with it.
+
+The current Keras can use Tensorflow, Theano, and CNTK(Microsoft Cognitive Toolkit) as a backend engine, and more engines will be available later.
+
+### Development with Keras: Quick Guide
