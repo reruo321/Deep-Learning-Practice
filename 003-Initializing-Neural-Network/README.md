@@ -60,3 +60,9 @@ The characteristics of Keras are:
 The current Keras can use Tensorflow, Theano, and CNTK(Microsoft Cognitive Toolkit) as a backend engine, and more engines will be available later.
 
 ### Development with Keras: Quick Guide
+Typical Keras process is similar to what we saw from the MNIST example.
+
+1. Define training data, which includes input tensor + target tensor.
+2. Define network (or model) that has layer mapping the input + target.
+3. Set training process by selecting loss function, optimizer, and measurement metrics to monitor.
+4. Repeatably call model's *fit()* method for training data.
