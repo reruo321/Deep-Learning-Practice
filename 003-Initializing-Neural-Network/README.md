@@ -64,5 +64,13 @@ Typical Keras process is similar to what we saw from the MNIST example.
 
 1. Define training data, which includes input tensor + target tensor.
 2. Define network (or model) that has layer mapping the input + target.
-3. Set training process by selecting loss function, optimizer, and measurement metrics to monitor.
+3. Set learning process by selecting loss function, optimizer, and measurement metrics to monitor.
 4. Repeatably call model's *fit()* method for training data.
+
+There are two ways to define a model: use ***Sequential* class**, the network which stacks layers sequentially, or use **Functional API**, creating DAG that is able to make completely random structure.
+
+Whichever way you chose while defining the model, all the following steps are the same. Step 3. Learning process is set on compiling step.
+
+Last, pass NumPy array of input data to the *fit()* method in the model.
+
+## 3.3 Deep Learning Computer Setting
