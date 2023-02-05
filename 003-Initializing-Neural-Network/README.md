@@ -74,3 +74,6 @@ Whichever way you chose while defining the model, all the following steps are th
 Last, pass NumPy array of input data to the *fit()* method in the model.
 
 ## 3.3 Deep Learning Computer Setting
+It is preferred to use GPU than CPU, but there is also an option to use AWS EC2 GPU instance or Google Cloud platform. Unix is the best OS to select, so Windows users will get benefit by setting dual booting with Ubuntu. Tensorflow, CNTK, or Theano must be installed to use Keras. (This book will use Tensorflow mainly.)
+
+### 
