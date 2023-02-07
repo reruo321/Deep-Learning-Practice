@@ -78,3 +78,11 @@ It is preferred to use GPU than CPU, but there is also an option to use AWS EC2 
 
 ### Jupyter Notebook: The Optimized Way for Deep Learning Test
 **Jupyter Notebook** is an application for web browsers which supports text format with template, and enables users to run Python codes. It can divide and run long codes into small ones, so that it allows users to perform interactive programming.
+
+### Starting Keras: Two Ways
+It is recommended to use one of two ways below:
+
+1. Use [The Official Deep Learning AMI](https://aws.amazon.com/machine-learning/amis/) to run Keras examples on EC2, via Jupyter Notebook. It is good if your local computer does not have any GPU.
+2. Install all things on local UNIX computer, and run Jupyter Notebooks or normal Python scripts. Do this if your computer have high-end NVIDIA GPU card.
+
+### Pros and Cons on Cloud Deep Learning Process
