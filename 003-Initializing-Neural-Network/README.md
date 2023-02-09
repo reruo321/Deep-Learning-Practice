@@ -86,3 +86,12 @@ It is recommended to use one of two ways below:
 2. Install all things on local UNIX computer, and run Jupyter Notebooks or normal Python scripts. Do this if your computer have high-end NVIDIA GPU card.
 
 ### Pros and Cons on Cloud Deep Learning Process
+One of the easiest cloud service to start deep learning is AWS EC2.
+#### Pros
+* Simple and cheap way for deep learning, if there's no good GPU card.
+* No difference between cloud and local, if you use Jupyter Notebook
+#### Cons
+* Not good for long-term grand-scale deep learning process: using the cloud instance will become expensive.
+
+### What GPU Card for Deep Learning?
+Try to pick out NVIDIA graphic cards...
