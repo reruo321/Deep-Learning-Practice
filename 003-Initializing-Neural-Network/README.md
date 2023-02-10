@@ -95,3 +95,6 @@ One of the easiest cloud service to start deep learning is AWS EC2.
 
 ### What GPU Card for Deep Learning?
 Try to pick out NVIDIA graphic cards...
+
+## 3.4 Movie Review Classification: Binary Classification Example
+We will learn on **binary classification (or two-class classification)**.
