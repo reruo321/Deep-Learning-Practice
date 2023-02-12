@@ -98,3 +98,8 @@ Try to pick out NVIDIA graphic cards...
 
 ## 3.4 Movie Review Classification: Binary Classification Example
 We will learn on **binary classification (or two-class classification)**.
+
+### IMDB Dataset
+**IMDB dataset** is a dataset whose data are from the Internet Movie Database. It has 25,000 training data and 25,000 testing data. 50% of the data are positive, and the rest are negative.
+
+Very important thing: YOU MUST NOT TRAIN AND TEST A MACHINE LEARNING MODEL **WITH THE SAME DATA!** We should take a look at the model's capability to predict the target on the new data, not the training data it would already know well.
