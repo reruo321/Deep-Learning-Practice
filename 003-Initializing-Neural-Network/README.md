@@ -103,3 +103,9 @@ We will learn on **binary classification (or two-class classification)**.
 **IMDB dataset** is a dataset whose data are from the Internet Movie Database. It has 25,000 training data and 25,000 testing data. 50% of the data are positive, and the rest are negative.
 
 Very important thing: YOU MUST NOT TRAIN AND TEST A MACHINE LEARNING MODEL **WITH THE SAME DATA!** We should take a look at the model's capability to predict the target on the new data, not the training data it would already know well.
+
+### Preparing Data
+We cannot inject number list into neural network directly. However, we can do it by converting the list into tensor. There are two ways to do it.
+
+* Add **padding** to list so that it has the same length → convert it into **integer tensor** with the shape (samples, sequence_length). Use the layer which can process it as the **1st layer** in the neural network. (**Embedding layer**)
+* **One-hot encoding** the list to convert it into vector with 0 and 1.
