@@ -109,3 +109,7 @@ We cannot inject number list into neural network directly. However, we can do it
 
 * Add **padding** to list so that it has the same length → convert it into **integer tensor** with the shape (samples, sequence_length). Use the layer which can process it as the **1st layer** in the neural network. (**Embedding layer**)
 * **One-hot encoding** the list to convert it into vector with 0 and 1.
+
+### Creating Neural Network Model
+The example input data is vector, and the label is scalar. (0 or 1) It may be one of the simplest problem we would see. Anyway, the network that would be nice for this kind of problems is fully connected layer(FCL) using relu activation function.
+
