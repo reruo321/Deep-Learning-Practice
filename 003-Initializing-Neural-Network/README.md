@@ -113,3 +113,12 @@ We cannot inject number list into neural network directly. However, we can do it
 ### Creating Neural Network Model
 The example input data is vector, and the label is scalar. (0 or 1) It may be one of the simplest problem we would see. Anyway, the network that would be nice for this kind of problems is fully connected layer(FCL) using relu activation function.
 
+    # This is the fully connected layer using relu.
+    Dense(16, activation='relu')
+    
+An argument *16* above is the number of hidden units. One hidden unit becomes one dimension in the representation space that layer shows.
+Also, we embodied *Dense* layer by connecting this tensor operation.
+
+    output = relu(dot(W, input) + b)
+    
+
