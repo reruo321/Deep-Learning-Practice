@@ -111,7 +111,7 @@ We cannot inject number list into neural network directly. However, we can do it
 * **One-hot encoding** the list to convert it into vector with 0 and 1.
 
 ### Creating Neural Network Model
-The example input data is vector, and the label is scalar. (0 or 1) It may be one of the simplest problem we would see. Anyway, the network that would be nice for this kind of problems is fully connected layer(FCL) using relu activation function.
+The example input data is vector, and the label is scalar. (0 or 1) It may be one of the simplest problem we would see. Anyway, the network that would be nice for this kind of problems is fully connected layer(FCL) using *relu* activation function.
 
     # This is the fully connected layer using relu.
     Dense(16, activation='relu')
@@ -121,4 +121,4 @@ Also, we embodied *Dense* layer by connecting this tensor operation.
 
     output = relu(dot(W, input) + b)
     
-
+If there are 16 hidden units, it means that the shape of the weight array *W* is (input_dimension, 16). Dot product of input data and *W* makes the input projected onto the 16-dimensional space. After that, bias vector *b* is added, and *relu* operation is also applied to it.
