@@ -122,3 +122,8 @@ Also, we embodied *Dense* layer by connecting this tensor operation.
     output = relu(dot(W, input) + b)
     
 If there are 16 hidden units, it means that the shape of the weight array *W* is (input_dimension, 16). Dot product of input data and *W* makes the input projected onto the 16-dimensional space. After that, bias vector *b* is added, and *relu* operation is also applied to it.
+
+If hidden units ↑,
+* Pros: Neural network can study more complex representation
+* Cons: Calculation cost ↑, Can study unwanted pattern (it only enhances performance on training data, not on testing one)
+
