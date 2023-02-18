@@ -127,3 +127,7 @@ If hidden units ↑,
 * Pros: Neural network can study more complex representation
 * Cons: Calculation cost ↑, Can study unwanted pattern (it only enhances performance on training data, not on testing one)
 
+There are two important things to decide when you stack *Dense* layers.
+
+* How many layers to use?
+* How many hidden units to put on each layer?
