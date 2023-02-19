@@ -131,3 +131,5 @@ There are two important things to decide when you stack *Dense* layers.
 
 * How many layers to use?
 * How many hidden units to put on each layer?
+
+We have used the activation function *relu* in the middle hidden layer in the example. It makes all negative numbers into 0. Next, the last layer uses *signmoid* function which compresses all numbers into the number in \[0, 1\]. It indicate that a sample with high possibility of target '1' has the higher chance of positive review.
