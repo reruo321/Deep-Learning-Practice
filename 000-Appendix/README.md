@@ -14,6 +14,14 @@
 #### Likelihood
 **Likelihood** is the probability of something discrete and individual. (excluding something continuous like weight or height)
 
+## Mean, Median, Mode, and Range
+> Let given numbers: 10, 11, 11, 12, 14, 15, 16
+
+* **Mean**: Arithmetic average. (10+11+...+16) ÷ 7 = 12.7
+* **Median**: Middle value. 12
+* **Mode**: The most frequent value. 11
+* **Range**: MAX - MIN. 16 - 10 = 6
+
 # Bias & Variance
 
 ## 1. Bias
