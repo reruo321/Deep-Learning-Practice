@@ -2,6 +2,10 @@
 ## Artifical Intelligence vs Machine Learning vs Deep Learning
 ![001AI](https://user-images.githubusercontent.com/48712088/204151390-2e189e8b-1dd3-405f-b2fd-cec9d6b6f1f0.png)
 
+* **AI**: All automated works by machines, substituting humans.
+* **ML**: AI + machine can learn the pattern by itself
+* **DL**: ML + machine can analyze data and extract the feature by itself (NO feature engineering)
+
 ### 1. Artificial Intelligence
 **Artificial Intelligence** is the theory + development of computer systems to perform like human intelligence. The early AI was started as symbolic AI, which explicitly define knowledge and rules for the behavior of computer programs.
 
